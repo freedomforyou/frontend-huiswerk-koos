@@ -1,6 +1,7 @@
 /* Opdracht 0: voorbeeld */
 // Schrijf een functie die de string "Goedemorgen" teruggeeft
 // ---- Verwachte uitkomst bij het aanroepen van de functie: "Goedemorgen"
+// Huiswerk Koos Dorssers
 
 console.log ("Voorbeeld opdracht")
 console.log("----------------------------")
