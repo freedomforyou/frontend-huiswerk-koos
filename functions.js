@@ -82,3 +82,5 @@ console.log("firstname: " + details[0] + ", lastname: " + details[1]);
 
 console.log("----------------------------")
 console.log(" ")
+// Einde huiswerk
+
