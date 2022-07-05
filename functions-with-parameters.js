@@ -4,6 +4,9 @@
 // add(1, 4) geeft 5
 // add(2, 5) geeft 7
 
+console.log ("Voorbeeld opdracht")
+console.log("----------------------------")
+
 function add(a, b) {
   return a + b;
 }
@@ -11,13 +14,27 @@ function add(a, b) {
 const result = add(1, 4);
 console.log(result);
 
+console.log("----------------------------")
+console.log(" ")
+
 /* Opdracht 1 */
 // Schrijf een functie genaamd greeter, die een naam verwacht en een groet teruggeeft
 // ---- Verwachte uitkomsten:
 // greeter("Jan") geeft "Hoi Jan!"
 // greeter("Kees") geeft "Hoi Kees!"
 
+console.log ("Opdracht 1")
+console.log("----------------------------")
 
+function greeter(name) {
+  return ("Hoi " + name + "!");
+}
+
+const greetName = greeter("Jan");
+console.log(greetName);
+
+console.log("----------------------------")
+console.log(" ")
 
 /* Opdracht 2 */
 // Schrijf een functie genaamd minutesToSeconds, die een hoeveelheid minuten verwacht (als een getal) en teruggeeft hoeveel seconden dat zijn.
@@ -26,7 +43,18 @@ console.log(result);
 // minutesToSeconds(3) geeft 180
 // minutesToSeconds(23) geeft 1380
 
+console.log ("Opdracht 2")
+console.log("----------------------------")
 
+function minutesToSeconds(minutes) {
+  return minutes * 60;
+}
+
+const seconds = minutesToSeconds(1);
+console.log(seconds);
+
+console.log("----------------------------")
+console.log(" ")
 
 /* Opdracht 3 */
 // Schrijf een functie genaamd merge, die twee strings verwacht en deze aan elkaar geplakt teruggeeft.
@@ -35,7 +63,18 @@ console.log(result);
 // merge("abra", "cadabra") geeft "abracadabra"
 // merge("zoet", "sappig") geeft "zoetsappig"
 
+console.log ("Opdracht 3")
+console.log("----------------------------")
 
+function merge(firstWord,secondWord) {
+  return (firstWord + secondWord);
+}
+
+const sentence = merge("aba","cadabra" );
+console.log(sentence);
+
+console.log("----------------------------")
+console.log(" ")
 
 
 /* Opdracht  4 */
@@ -44,7 +83,18 @@ console.log(result);
 // calculateDogYears(6) geeft "Jouw hond is 42 jaar oud in mensenjaren."
 // calculateDogYears(2) geeft "Jouw hond is 14 jaar oud in mensenjaren."
 
+console.log ("Opdracht 4")
+console.log("----------------------------")
 
+function calculateDogYears(age) {
+  return ("Jouw hond is " + age * 7 + " jaar oud in mensenjaren.");
+}
+
+const dogAge = calculateDogYears(6);
+console.log(dogAge);
+
+console.log("----------------------------")
+console.log(" ")
 
 /* Opdracht 5 */
 // Schrijf een functie genaamd wrapper, die twee parameters verwacht: een woord en een karakter
@@ -54,7 +104,18 @@ console.log(result);
 // wrapper("beep", "_") geeft "_beep_"
 // wrapper("kaas", "Q") geeft "QkaasQ"
 
+console.log ("Opdracht 5")
+console.log("----------------------------")
 
+function wrapper(word,character) {
+  return (character + word + character);
+}
+
+const wrappedWord = wrapper("bril","*");
+console.log(wrappedWord);
+
+console.log("----------------------------")
+console.log(" ")
 
 /* Bonus opdracht  */
 // Schrijf een functie genaamd createDetailString, die een object met de properties firstName, lastName en profession verwacht en een zin teruggeeft
@@ -62,4 +123,15 @@ console.log(result);
 // createDetailString({ firstName: 'Jan', lastName: 'Jansen', profession: 'docent'}) geeft "Het beroep vam Jan Jansen is docent."
 // createDetailString({ firstName: 'Kees', lastName: 'Klaasen', profession: 'brandweerman'}) geeft "Het beroep vam Kees Klaasen is brandweerman."
 
+console.log ("Bonusopdracht")
+console.log("----------------------------")
 
+function createDetailString(firstname,lastname,profession) {
+  return "Het beroep van " + firstname + " " + lastname + " is " + profession + ".";
+}
+
+const nameProfession = createDetailString("Jan","Janssen","docent");
+console.log(nameProfession);
+
+console.log("----------------------------")
+console.log(" ")
