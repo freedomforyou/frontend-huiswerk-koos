@@ -3,6 +3,7 @@
 // ---- Verwachte uitkomsten:
 // add(1, 4) geeft 5
 // add(2, 5) geeft 7
+// Huiswerk Koos Dorssers
 
 console.log ("Voorbeeld opdracht")
 console.log("----------------------------")
